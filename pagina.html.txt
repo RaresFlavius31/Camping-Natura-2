@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPING NATURA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4caf50;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0 10px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #4caf50;
+        }
+        .description {
+            text-align: justify;
+        }
+        .services {
+            margin-top: 30px;
+        }
+        .services h2 {
+            color: #4caf50;
+        }
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CAMPING NATURA</h1>
+    </header>
+    <nav>
+        <a href="#about">Despre noi</a>
+        <a href="#services">Servicii</a>
+        <a href="#contact">Contact</a>
+        <a href="#photos">Poze</a>
+    </nav>
+    <section id="about">
+        <h2>Despre noi</h2>
+        <div class="description">
+            <p>Bine ați venit la Camping Natura, locul perfect pentru a vă petrece timpul în mijlocul naturii. Situat într-un peisaj idilic, campingul nostru oferă o oază de liniște și frumusețe naturală. Indiferent dacă sunteți pasionați de drumeții, pescuit sau doar de relaxare în aer liber, suntem locul ideal pentru dumneavoastră.</p>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <h2>Servicii</h2>
+        <ul>
+            <li>Cazări în corturi sau rulote</li>
+            <li>Zonă de foc pentru grătar</li>
+            <li>Toalete și dușuri moderne</li>
+            <li>Puncte de energie electrică</li>
+            <li>Activități de recreere în aer liber</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Pentru mai multe informații și rezervări, vă rugăm să ne contactați la:</p>
+        <p>Telefon: 123-456-789</p>
+        <p>Email: contact@campingnatura.ro</p>
+    </section>
+    <section id="photos">
+        <h2>Poze</h2>
+        <p>Aici vor fi afișate pozele cu peisajele frumoase din campingul nostru.</p>
+        <!-- Pozele vor fi adăugate aici -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Camping Natura. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
